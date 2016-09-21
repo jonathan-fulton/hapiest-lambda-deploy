@@ -1,6 +1,6 @@
 {
   "name": "hapiest-lambda-deploy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Package that makes deploying AWS Lambda Functions simple and easy",
   "main": "index.js",
   "scripts": {

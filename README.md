@@ -59,7 +59,8 @@ Hapiest-lambda-deploy is designed to make it super-simple to deploy one or more 
     const deployService = DeployServiceFactory.create(folders, logger);
     
     deployService.deployFromCommandLineArguments(process.argv)
-    .then(() => process.exit());
+    .then(() => process.exit())
+    .catch(err => logger.error('Deploy failed', err));
     ```
 
 
