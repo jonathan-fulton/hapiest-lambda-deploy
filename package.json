@@ -1,0 +1,40 @@
+{
+  "name": "hapiest-lambda-deploy",
+  "version": "0.0.1",
+  "description": "Package that makes deploying AWS Lambda Functions simple and easy",
+  "main": "index.js",
+  "scripts": {
+    "test:integration": "node node_modules/mocha/bin/mocha test/integration --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-fulton/hapiest-lambda-deploy.git"
+  },
+  "keywords": [
+    "Hapiest",
+    "AWS",
+    "Lambda",
+    "AWS",
+    "Lambda",
+    "Deploy"
+  ],
+  "author": "Jonathan Fulton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-fulton/hapiest-lambda-deploy/issues"
+  },
+  "homepage": "https://github.com/jonathan-fulton/hapiest-lambda-deploy#readme",
+  "dependencies": {
+    "adm-zip": "0.4.7",
+    "aws-sdk": "2.6.3",
+    "bluebird": "3.4.6",
+    "minimist": "1.2.0"
+  },
+  "devDependencies": {
+    "hapiest-logger": "0.0.5",
+    "mocha": "3.0.2",
+    "moment": "2.15.1",
+    "should": "11.1.0",
+    "sinon": "1.17.6"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lambdaFunctions": [{
+    "functionName": "hapiestLambdaDeployTest",
+    "zipContents": [
+      "index.js",
+      "lib",
+      "timestamp.txt"
+    ],
+    "environments": [
+      {
+        "envName": "env1",
+        "nodeEnvValue": "environment1",
+        "liveAliasName": "LIVE"
+      }, {
+        "envName": "env2",
+        "nodeEnvValue": "environment2",
+        "liveAliasName": "LIVE"
+      }
+    ]
+  }]
+}
