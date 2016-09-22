@@ -1,6 +1,6 @@
 {
   "name": "hapiest-lambda-deploy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Package that makes deploying AWS Lambda Functions simple and easy",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/jonathan-fulton/hapiest-lambda-deploy#readme",
   "dependencies": {
-    "adm-zip": "0.4.7",
+    "archiver": "1.1.0",
     "aws-sdk": "2.6.3",
     "bluebird": "3.4.6",
     "minimist": "1.2.0"
